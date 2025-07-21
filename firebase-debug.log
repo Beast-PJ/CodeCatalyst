@@ -1,0 +1,112 @@
+[debug] [2025-07-21T20:34:34.762Z] ----------------------------------------------------------------------
+[debug] [2025-07-21T20:34:34.768Z] Command:       E:\Program Files\nodejs\node.exe C:\Users\li\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-07-21T20:34:34.769Z] CLI Version:   14.11.0
+[debug] [2025-07-21T20:34:34.769Z] Platform:      win32
+[debug] [2025-07-21T20:34:34.770Z] Node Version:  v22.14.0
+[debug] [2025-07-21T20:34:34.770Z] Time:          Tue Jul 22 2025 02:04:34 GMT+0530 (India Standard Time)
+[debug] [2025-07-21T20:34:34.770Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-21T20:34:34.778Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-21T20:34:34.779Z] > authorizing via signed-in user (p.jadhav61657@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\li\Downloads\Code Catalyst\CodeCatalyst
+
+[debug] [2025-07-21T20:35:50.951Z] ExitPromptError: User force closed the prompt with SIGINT
+    at Interface.sigint (C:\Users\li\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\@inquirer\core\dist\commonjs\lib\create-prompt.js:101:37)
+    at Interface.emit (node:events:518:28)
+    at Interface.emit (node:domain:489:12)
+    at [_ttyWrite] [as _ttyWrite] (node:internal/readline/interface:1124:18)
+    at ReadStream.onkeypress (node:internal/readline/interface:263:20)
+    at ReadStream.emit (node:events:530:35)
+    at ReadStream.emit (node:domain:489:12)
+    at emitKeys (node:internal/readline/utils:370:14)
+    at emitKeys.next (<anonymous>)
+    at ReadStream.onData (node:internal/readline/emitKeypressEvents:64:36)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-07-21T20:36:07.342Z] ----------------------------------------------------------------------
+[debug] [2025-07-21T20:36:07.346Z] Command:       E:\Program Files\nodejs\node.exe C:\Users\li\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init hosting
+[debug] [2025-07-21T20:36:07.347Z] CLI Version:   14.11.0
+[debug] [2025-07-21T20:36:07.347Z] Platform:      win32
+[debug] [2025-07-21T20:36:07.347Z] Node Version:  v22.14.0
+[debug] [2025-07-21T20:36:07.347Z] Time:          Tue Jul 22 2025 02:06:07 GMT+0530 (India Standard Time)
+[debug] [2025-07-21T20:36:07.348Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-21T20:36:07.358Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-21T20:36:07.359Z] > authorizing via signed-in user (p.jadhav61657@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\li\Downloads\Code Catalyst\CodeCatalyst
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-07-21T20:36:17.842Z] Checked if tokens are valid: true, expires at: 1753133658522
+[debug] [2025-07-21T20:36:17.843Z] Checked if tokens are valid: true, expires at: 1753133658522
+[debug] [2025-07-21T20:36:17.845Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-07-21T20:36:18.901Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-07-21T20:36:18.901Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project codecatalyst-7 (CodeCatalyst) 
+[info] 
+=== Hosting Setup
+[debug] [2025-07-21T20:36:26.044Z] Checked if tokens are valid: true, expires at: 1753133658522
+[debug] [2025-07-21T20:36:26.044Z] Checked if tokens are valid: true, expires at: 1753133658522
+[debug] [2025-07-21T20:36:26.044Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/codecatalyst-7 [none]
+[debug] [2025-07-21T20:36:26.839Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/codecatalyst-7 200
+[debug] [2025-07-21T20:36:26.840Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/codecatalyst-7 {"projectId":"codecatalyst-7","projectNumber":"1000975913744","displayName":"CodeCatalyst","name":"projects/codecatalyst-7","resources":{"hostingSite":"codecatalyst-7"},"state":"ACTIVE","etag":"1_affcbe07-dd80-4503-a23f-57480bdda504"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2025-07-21T20:36:51.980Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2025-07-21T20:36:52.230Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2025-07-21T20:36:52.231Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"12.0.0","browserURL":"https://www.gstatic.com/firebasejs/12.0.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/12.0.0/firebase.tgz"},"live":{"version":"12.0","browserURL":"https://www.gstatic.com/firebasejs/live/12.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/12.0/firebase.tgz"},"components":{"ai":"https://www.gstatic.com/firebasejs/12.0.0/firebase-ai.js","analytics":"https://www.gstatic.com/firebasejs/12.0.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/12.0.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/12.0.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/12.0.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/12.0.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/12.0.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/12.0.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/12.0.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/12.0.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/12.0.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/12.0.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/12.0.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/12.0.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/12.0.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/12.0.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/12.0.0/firebase-database.js","data-connect":"https://www.gstatic.com/firebasejs/12.0.0/firebase-data-connect.js","firestore.memory":"https://www.gstatic.com/firebasejs/12.0.0/firebase-firestore.memory.js"}}
+[info] +  Wrote public/index.html 
+[info] 
+[info] i  Didn't detect a .git folder. Assuming C:\Users\li\Downloads\Code Catalyst\CodeCatalyst is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=80804848&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2025-07-21T20:37:05.526Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2025-07-21T20:37:05.527Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2025-07-21T20:37:06.128Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2025-07-21T20:37:06.129Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2025-07-21T20:37:06.136Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2025-07-21T20:37:06.597Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2025-07-21T20:37:06.597Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"Beast-PJ","id":166439207,"node_id":"U_kgDOCeupJw","avatar_url":"https://avatars.githubusercontent.com/u/166439207?v=4","gravatar_id":"","url":"https://api.github.com/users/Beast-PJ","html_url":"https://github.com/Beast-PJ","followers_url":"https://api.github.com/users/Beast-PJ/followers","following_url":"https://api.github.com/users/Beast-PJ/following{/other_user}","gists_url":"https://api.github.com/users/Beast-PJ/gists{/gist_id}","starred_url":"https://api.github.com/users/Beast-PJ/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/Beast-PJ/subscriptions","organizations_url":"https://api.github.com/users/Beast-PJ/orgs","repos_url":"https://api.github.com/users/Beast-PJ/repos","events_url":"https://api.github.com/users/Beast-PJ/events{/privacy}","received_events_url":"https://api.github.com/users/Beast-PJ/received_events","type":"User","user_view_type":"private","site_admin":false,"name":null,"company":null,"blog":"","location":null,"email":null,"hireable":null,"bio":null,"twitter_username":null,"notification_email":null,"public_repos":16,"public_gists":0,"followers":9,"following":3,"created_at":"2024-04-08T18:59:27Z","updated_at":"2025-07-21T20:37:02Z","private_gists":0,"total_private_repos":6,"owned_private_repos":6,"disk_usage":101422,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as Beast-PJ 
+[info] 
+[debug] [2025-07-21T20:37:25.812Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2025-07-21T20:37:26.214Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2025-07-21T20:37:26.214Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest","status":"404"}
+[info] 
+[info] 
+[error] !  The provided authorization cannot be used with this repository. If this repository is in an organization, did you remember to grant access? 
+[info] 
+[info] i  Action required: Visit this URL to ensure access has been granted to the appropriate organization(s) for the Firebase CLI GitHub OAuth App: 
+[info] https://github.com/settings/connections/applications/89cf50f02ac6aaed3484
+[info] 
